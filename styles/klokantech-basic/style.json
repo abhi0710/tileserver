@@ -19,7 +19,6 @@
 			"url": "http://3.0.17.4:8080/data/v3.json"
 		}
 	},
-	  "sprite": "{styleJsonFolder}/sprite",
 	  "glyphs": "{fontstack}/{range}.pbf",
 	"layers": [{
 		"id": "background",
