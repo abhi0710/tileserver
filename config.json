@@ -1,0 +1,55 @@
+{
+  "options": {
+    "paths": {
+      "root": "",
+      "fonts": "fonts",
+      "styles": "styles",
+      "mbtiles": "/data"
+    },
+    "watermark" : "gaiansolutions.com"
+  },
+  "styles": {
+    "klokantech-basic": {
+      "style": "klokantech-basic/style.json",
+      "tilejson": {
+        "bounds": [
+          -179.9999,
+          6.88283,
+          -5.198412,
+          85.04177
+        ]
+      }
+    },
+    "osm-bright": {
+      "style": "osm-bright/style.json",
+      "tilejson": {
+        "bounds": [
+          -179.9999,
+          6.88283,
+          -5.198412,
+          85.04177
+        ]
+      }
+    },
+    "dark-matter": {
+      "serve_data" : true,
+      "style": "dark-matter/style.json",
+      "tilejson": {
+        "bounds": [
+          -179.9999,
+          6.88283,
+          -5.198412,
+          85.04177
+        ]
+      }
+    }
+
+
+
+  },
+  "data": {
+    "v3": {
+      "mbtiles": "na.mbtiles"
+    }
+  }
+}
