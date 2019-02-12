@@ -9,31 +9,9 @@
     "watermark" : "GaiaTV3.0"
   },
   "styles": {
-    "vintage": {
-      "style": "vintage/style.json",
-      "tilejson": {
-        "bounds": [
-          -179.9999,
-          6.88283,
-          -5.198412,
-          85.04177
-        ]
-      }
-    },
  
    "klokantech-basic": {
       "style": "klokantech-basic/style.json",
-      "tilejson": {
-        "bounds": [
-          -179.9999,
-          6.88283,
-          -5.198412,
-          85.04177
-        ]
-      }
-    },
-    "roman-empire": {
-      "style": "roman-empire/style.json",
       "tilejson": {
         "bounds": [
           -179.9999,
@@ -85,7 +63,7 @@
   },
   "data": {
     "v3": {
-      "mbtiles": "na.mbtiles"
+      "mbtiles": "world.mbtiles"
     }
   }
 }

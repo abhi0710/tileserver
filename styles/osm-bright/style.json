@@ -45,11 +45,11 @@
 	"sources": {
 		"openmaptiles": {
 			"type": "vector",
-			"url": "http://3.0.17.4:8080/data/v3.json"
+			"url": "mbtiles://{v3}"
 		}
 	},
-	"sprite": "http://3.0.17.4:8080/styles/osm-bright/sprite",
-	"glyphs": "http://3.0.17.4:8080/fonts/{fontstack}/{range}.pbf",
+	"sprite":  "{styleJsonFolder}/sprite",
+	"glyphs": "{fontstack}/{range}.pbf",
 	"layers": [{
 		"id": "background",
 		"type": "background",
